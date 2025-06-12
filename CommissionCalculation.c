@@ -6,10 +6,10 @@ double computeCommissionCalculation(float salesVolume , double rate){
 
 double commission = (double)salesVolume * rate;
 
-printf("\nNEW SALES.VOLUME:\t%.2f\n" , salesVolume);
-printf("NEW COMMISSION.RATE:%.2lf\n" , rate);
+printf("\nNEWEST SALES.VOLUME:\t%.2f\n" , salesVolume);
+printf("NEWEST COMMISSION.RATE:%.2lf\n" , rate);
 printf("---------------\n");
-printf("NEW COMMISSION.AMOUNT:%.2lf\n" , commission);
+printf("NEWEST COMMISSION.AMOUNT:%.2lf\n" , commission);
 return commission;
 
 }
